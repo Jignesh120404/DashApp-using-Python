@@ -9,6 +9,7 @@ import statistics
 import numpy as np
 # Create Dash app
 app = dash.Dash(__name__,)
+server = app.server
 global output_message1
 # Header style
 header_style = {
